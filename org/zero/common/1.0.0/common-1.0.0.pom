@@ -286,6 +286,12 @@
                             </goals>
                         </execution>
                     </executions>
+                    <configuration>
+                        <additionalOptions>
+                            <!-- 忽略文档注释不规范报错 -->
+                            <additionalOption>-Xdoclint:none</additionalOption>
+                        </additionalOptions>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
