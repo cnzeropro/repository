@@ -21,7 +21,7 @@
     <description>Common Project</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>8</java.version>
         <project.encoding>UTF-8</project.encoding>
         <resource.delimiter>@</resource.delimiter>
         <maven.compiler.release>${java.version}</maven.compiler.release>
